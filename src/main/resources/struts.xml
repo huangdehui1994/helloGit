@@ -23,8 +23,8 @@
         <!-- 使用新的拦截栈 -->
         <default-interceptor-ref name="sshStack"/>
 
-        <action name="emp-*" method="{1}" >
-
+        <action name="emp-*" class="actions.EmployeeAction" method="{1}">
+            <result></result>
         </action>
 
     </package>
